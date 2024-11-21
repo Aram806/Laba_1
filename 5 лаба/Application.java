@@ -29,9 +29,9 @@ public class Application {
     }
 
    static void onStart(String nameApp) {
-        System.out.println("Стартовая точка программы " + nameApp);
+        System.out.println("Г‘ГІГ Г°ГІГ®ГўГ Гї ГІГ®Г·ГЄГ  ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» " + nameApp);
     }
    static void onClose() {
-        System.out.println("Закрытие программы");
+        System.out.println("Г‡Г ГЄГ°Г»ГІГЁГҐ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г»");
     }
 }
