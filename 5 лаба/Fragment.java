@@ -61,30 +61,30 @@ public class Fragment{
     }
 
     static void onAttach() {
-        System.out.println("Приклепление к активити");
+        System.out.println("ГЏГ°ГЁГЄГ«ГҐГЇГ«ГҐГ­ГЁГҐ ГЄ Г ГЄГІГЁГўГЁГІГЁ");
     }
     static void onStart() {
-        System.out.println("Запуск экрана");
+        System.out.println("Г‡Г ГЇГіГ±ГЄ ГЅГЄГ°Г Г­Г ");
     }
     static void onCreateView() {
-        System.out.println("Инициализация представления");
+        System.out.println("Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї ГЇГ°ГҐГ¤Г±ГІГ ГўГ«ГҐГ­ГЁГї");
     }
     static void onViewCreated() {
-        System.out.println("Вью было создано");
+        System.out.println("Г‚ГјГѕ ГЎГ»Г«Г® Г±Г®Г§Г¤Г Г­Г®");
     }
     static void onDestroyView() {
-        System.out.println("Уничтожение вью");
+        System.out.println("Г“Г­ГЁГ·ГІГ®Г¦ГҐГ­ГЁГҐ ГўГјГѕ");
     }
     static void onPause() {
-        System.out.println("Экран не виден пользователю");
+        System.out.println("ГќГЄГ°Г Г­ Г­ГҐ ГўГЁГ¤ГҐГ­ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гѕ");
     }
     static void onResume() {
-        System.out.println("Экран снова виден пользователю");
+        System.out.println("ГќГЄГ°Г Г­ Г±Г­Г®ГўГ  ГўГЁГ¤ГҐГ­ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гѕ");
     }
     static void onDetach() {
-        System.out.println("Откреклепление от активити");
+        System.out.println("ГЋГІГЄГ°ГҐГЄГ«ГҐГЇГ«ГҐГ­ГЁГҐ Г®ГІ Г ГЄГІГЁГўГЁГІГЁ");
     }
     static void onDestroy() {
-        System.out.println("Закрытие экрана");
+        System.out.println("Г‡Г ГЄГ°Г»ГІГЁГҐ ГЅГЄГ°Г Г­Г ");
     }
 }
