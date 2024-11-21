@@ -45,21 +45,21 @@ public class Activity {
     }
 
     static void onStart() {
-        System.out.println("Входная точка приложения");
+        System.out.println("Г‚ГµГ®Г¤Г­Г Гї ГІГ®Г·ГЄГ  ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї");
     }
     static void onCreate() {
-        System.out.println("Инициализация фрагментов");
+        System.out.println("Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї ГґГ°Г ГЈГ¬ГҐГ­ГІГ®Гў");
     }
     static void onPause() {
-        System.out.println("Сворачивание приложения");
+        System.out.println("Г‘ГўГ®Г°Г Г·ГЁГўГ Г­ГЁГҐ ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї");
     }
     static void onStop() {
-        System.out.println("Остановка активити");
+        System.out.println("ГЋГ±ГІГ Г­Г®ГўГЄГ  Г ГЄГІГЁГўГЁГІГЁ");
     }
     static void onResume() {
-        System.out.println("Экраны снова видны пользователю");
+        System.out.println("ГќГЄГ°Г Г­Г» Г±Г­Г®ГўГ  ГўГЁГ¤Г­Г» ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гѕ");
     }
     static void onDestroy() {
-        System.out.println("Закрытие активити");
+        System.out.println("Г‡Г ГЄГ°Г»ГІГЁГҐ Г ГЄГІГЁГўГЁГІГЁ");
     }
 }
